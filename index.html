@@ -31,7 +31,7 @@
             line-height: 1.4;
         }
 
-        /* Curseur quantique */
+
         .quantum-cursor {
             position: fixed;
             width: 8px;
@@ -52,7 +52,7 @@
             border: 1px solid var(--electric);
         }
 
-        /* Navigation */
+
         .meta-nav {
             position: fixed;
             left: 30px;
@@ -83,7 +83,6 @@
             transition: height 0.3s ease;
         }
 
-        /* Landing section */
         .quantum-space {
             height: 100vh;
             display: flex;
@@ -171,13 +170,13 @@
             opacity: 1;
         }
 
-        /* Container principal pour tous les projets */
+
         .projects-container {
             position: relative;
             z-index: 1;
         }
 
-        /* Champs de données - VERSION CORRIGÉE */
+
         .data-field {
             padding: 120px 50px;
             position: relative;
@@ -358,7 +357,7 @@
             background: linear-gradient(-90deg, var(--ghost), transparent);
         }
 
-        /* Section contact - VERSION CORRIGÉE */
+  
         .contact-zone {
             padding: 150px 40px;
             background: linear-gradient(135deg, var(--void) 0%, var(--deep) 100%);
@@ -645,7 +644,7 @@
             }
         }
 
-        /* Responsive */
+    
         @media (max-width: 1024px) {
             .field-container,
             .field-container.reverse {
@@ -728,7 +727,7 @@
             transform: translateZ(0) scale(1.02);
         }
 
-	/* Header identité */
+	
 .identity-header {
     text-align: center;
     margin-bottom: 40px;
@@ -782,7 +781,7 @@
     font-size: 12px;
 }
 
-/* Section À propos */
+
 .about-matrix {
     padding: 120px 50px;
     background: linear-gradient(180deg, var(--void) 0%, var(--deep) 50%, var(--void) 100%);
@@ -932,7 +931,7 @@ text-align: center;
     0%, 100% { left: -100%; }
     50% { left: 100%; }
 }
-/* Section projets complémentaires */
+
 .micro-projects-field {
     padding: 100px 50px;
     background: linear-gradient(135deg, var(--void) 0%, rgba(26, 0, 51, 0.8) 50%, var(--void) 100%);
@@ -1124,7 +1123,7 @@ text-align: center;
     border-radius: 50%;
 }
 
-/* Animation pour les cartes */
+
 @keyframes micro-float {
     0%, 100% { transform: translateY(0px); }
     50% { transform: translateY(-5px); }
@@ -1140,7 +1139,7 @@ text-align: center;
     animation-delay: 2s;
 }
 
-/* Responsive pour les micro-projets */
+
 @media (max-width: 768px) {
     .micro-projects-field {
         padding: 80px 30px;
@@ -1343,12 +1342,11 @@ text-align: center;
     right: 25px;
 }
 
-/* Navigation toggle - masqué sur desktop */
+
 .nav-toggle {
     display: none;
 }
 
-/* Mobile navigation */
 @media (max-width: 768px) {
     .main-nav {
         top: 20px;
@@ -1395,7 +1393,7 @@ text-align: center;
     }
 }
 
-/* Scroll to top button */
+
 .scroll-top {
     position: fixed;
     bottom: 40px;
@@ -1430,7 +1428,7 @@ text-align: center;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
-/* Nouvelle section média interactive */
+
         .media-showcase {
             margin-top: 60px;
         }
@@ -1486,7 +1484,7 @@ text-align: center;
         }
 
 
-        /* Style vidéo */
+   
 .demo-video {
     width: 100%;
     aspect-ratio: 16/9;
@@ -1509,13 +1507,13 @@ text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.8), transparent);
     padding: 20px;
     color: white;
-    opacity: 0;              /* invisible par défaut */
-    transition: opacity 0.3s ease; /* animation fluide */
-    pointer-events: none;    /* ne bloque pas la vidéo */
+    opacity: 0;            
+    transition: opacity 0.3s ease;
+    pointer-events: none;   
 }
 
 .demo-video:hover .video-overlay {
-    opacity: 1; /* apparaît seulement au hover */
+    opacity: 1; 
 }
 
         .video-title {
@@ -1531,7 +1529,7 @@ text-align: center;
             opacity: 0.9;
         }
 
-        /* Galerie de screenshots */
+ 
         .screenshots-grid {
             display: grid;
             gap: 20px;
@@ -1540,13 +1538,13 @@ text-align: center;
 
         }
 
-        /* Layout pour 4 photos - Grille 2x2 */
+
         .screenshots-grid.grid-4 {
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
         }
 
-        /* Layout pour 3 photos - 1 grande + 2 petites */
+       
         .screenshots-grid.grid-3 {
             grid-template-columns: 2fr 1fr;
             grid-template-rows: repeat(2, 1fr);
@@ -1583,7 +1581,6 @@ text-align: center;
             object-fit: cover;
         }
 
-        /* Mode contain pour préserver les proportions */
         .screenshot-item.contain-mode img {
             object-fit: contain;
             max-height: 100%;
@@ -1619,12 +1616,12 @@ text-align: center;
     color: white;
     opacity: 0;
     transition: opacity 0.3s ease;
-    pointer-events: none; /* ne bloque pas les interactions */
+    pointer-events: none; 
 }
 
 
 .screenshot-item:hover .screenshot-overlay {
-    opacity: 1; /* visible au hover */
+    opacity: 1; 
 }
 
         .screenshot-title {
@@ -1641,7 +1638,7 @@ text-align: center;
             opacity: 0.9;
         }
 .lightbox {
-    display: none; /* caché par défaut */
+    display: none; 
     position: fixed;
     top: 0;
     left: 0;
@@ -1689,7 +1686,7 @@ text-align: center;
             </style>
 </head>
 <body>
-<!-- Navigation principale -->
+
 <nav class="main-nav">
     <div class="nav-menu" id="navMenu">
         <a href="#accueil" class="nav-item active" data-section="accueil">Accueil</a>
@@ -1703,7 +1700,7 @@ text-align: center;
     </div>
 </nav>
 
-<!-- Indicateurs de section -->
+
 <div class="section-indicator">
     <div class="section-dot active" data-section="ACCUEIL" onclick="scrollToSection('accueil')"></div>
     <div class="section-dot" data-section="PROFIL" onclick="scrollToSection('profil')"></div>
@@ -1712,20 +1709,20 @@ text-align: center;
     <div class="section-dot" data-section="CONTACT" onclick="scrollToSection('contact')"></div>
 </div>
 <div class="scroll-top" id="scrollTop">↑</div>
-    <!-- Curseur quantique -->
+
     <div class="quantum-cursor"></div>
 
-    <!-- Navigation méta -->
+
     <div class="meta-nav">INGÉNIEUR SUPPLY CHAIN</div>
     <div class="progress-line">
         <div class="progress-fill"></div>
     </div>
 
-    <!-- Espace quantique d'identité -->
+ 
     <section class="quantum-space" id="accueil">
     <div class="quantum-grid"></div>
     <div class="identity-matrix">
-        <!-- NOUVELLE section profil personnel -->
+
         <div class="identity-header">
             <div class="personal-tag">Nils Barbier-Piguet</div>
 
@@ -1793,9 +1790,9 @@ text-align: center;
     </div>
 </section>
 
-    <!-- Container des projets -->
+   
     <div class="projects-container" id="projets">
-        <!-- Projet 01 - OntoQuest -->
+
         <section class="data-field">
             <div class="field-container">
                 <div class="field-index">
@@ -1892,7 +1889,7 @@ text-align: center;
             </div>
         </section>
 
-        <!-- Projet 02 - Calculateur CO2 -->
+       
 <section class="data-field">
     <div class="field-container reverse">
         <div class="field-index">
@@ -1920,15 +1917,15 @@ text-align: center;
                 <div class="essence-text">Aide à la prise de décision pour des transports plus durables et le suivi des objectifs RSE</div>
             </div>
 
-            <!-- Remplacement du viz-space par le media-showcase -->
+          
 <div class="media-showcase">
     <div class="media-nav">
-        <!-- On peut mettre un seul onglet "VISUALISATIONS" si pas de démo -->
+       
         <button class="media-tab active" onclick="showMedia('eco-screens', this)">TABLEAU EXCEL</button>
     </div>
 
     <div class="media-container">
-        <!-- Contenu Screenshots -->
+
         <div class="media-content active" id="eco-screens">
             <div class="screenshots-grid grid-3">
                 <div class="screenshot-item cover-mode">
@@ -1962,7 +1959,7 @@ text-align: center;
         </div>
     </div>  
 </div>
-<!-- fin media-showcase -->
+
 
 
         </div>
@@ -1970,7 +1967,6 @@ text-align: center;
 </section>
 
 
-        <!-- Projet 03 - Optimisateur -->
         <section class="data-field">
             <div class="field-container">
                 <div class="field-index">
@@ -1997,7 +1993,7 @@ text-align: center;
                         <div class="essence-label">IMPACT ÉCONOMIQUE</div>
                         <div class="essence-text">Réduction significative des coûts logistiques et optimisation des flux de distribution</div>
                     </div>
-                    <!-- Remplacement du viz-space par le media-showcase -->
+                    
             <div class="media-showcase">
                 <div class="media-nav">
                     <button class="media-tab active" onclick="showMedia('bary-demo', this)">DÉMO VIDÉO</button>
@@ -2022,7 +2018,7 @@ text-align: center;
                         </div>
                     </div>
 
-                    <!-- Contenu Screenshots -->
+                
                     <div class="media-content" id="bary-screens">
                         <div class="screenshots-grid grid-3">
                             <div class="screenshot-item">
@@ -2057,7 +2053,7 @@ text-align: center;
                     </div>
                 </div>	
             </div>
-            <!-- fin media-showcase -->
+        
 
         </div>
     </div>
@@ -2079,7 +2075,7 @@ text-align: center;
         </div>
 
         <div class="micro-grid">
-            <!-- Créateur de fichiers douane -->
+     
             <div class="micro-card focusable">
                 <div class="micro-card-header">
                     <div class="micro-icon">📋</div>
@@ -2102,7 +2098,7 @@ text-align: center;
                 </div>
             </div>
 
-            <!-- Traitement fichiers vente -->
+
             <div class="micro-card focusable">
                 <div class="micro-card-header">
                     <div class="micro-icon">📊</div>
@@ -2125,7 +2121,7 @@ text-align: center;
                 </div>
             </div>
 
-            <!-- Vérification factures -->
+           
             <div class="micro-card focusable">
                 <div class="micro-card-header">
                     <div class="micro-icon">🔍</div>
@@ -2151,7 +2147,7 @@ text-align: center;
         </div>
     </div>
 </section>
-    <!-- Section contact -->
+
 <section class="contact-zone" id="contact">
         <div class="quantum-grid"></div>
         <div class="contact-container">
@@ -2560,4 +2556,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     </script>
 </body>
+
 </html>
